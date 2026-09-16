@@ -1,0 +1,45 @@
+# Geological Site Location Map — Vulkaneifel, Germany (QGIS)
+
+## 📌 Project Overview
+This project presents a professional, publication-ready site location map of the volcanic **Maars in the Vulkaneifel region, Germany**. Created using **QGIS**, the project demonstrates core spatial data integration, CRS management, cartographic styling, and map layout workflows suited for geological and geophysical applications.
+
+![Geological Map](maps/Vulkaneifel_Geological_Map_300DPI.png)
+
+---
+
+## 🎯 Objectives
+- Build a structured spatial dataset for geological site visualization.
+- Apply standard European CRS (`EPSG:25832`) for accurate spatial scaling.
+- Produce a clean, readable map layout suitable for academic portfolios and reports.
+
+---
+
+## 🛠️ Data Sources & Specification
+- **Study Area Boundary:** GADM (Level 2 Administrative Boundary - Landkreis Vulkaneifel).
+- **Geological Sites (Maars):** Hand-curated coordinates of major volcanic maars (CSV format).
+- **Roads & Waterways:** OpenStreetMap (OSM) via `QuickOSM` plugin.
+- **Basemap:** OpenStreetMap Standard XYZ Tiles.
+
+---
+
+## ⚙️ Spatial & Cartographic Methodology
+1. **Coordinate Reference System:** ETRS89 / UTM zone 32N (`EPSG:25832`).
+2. **Symbology:**
+   - Volcanic Maars: High-contrast red triangle point markers.
+   - Base Layers: Muted grey lines for main roads, hydrographic blue for drainage, and dashed boundary vector styles.
+3. **Labeling:** Text buffering (1.2mm) enabled to prevent line-clash with basemap features.
+4. **Layout Setup:** A4 Landscape Print Layout including Grid lines, North Arrow, Dynamic Scale Bar, Custom Legend, and Spatial Metadata.
+
+---
+
+## 📁 Repository Contents
+- `data/`: Contains raw CSV and spatial boundaries used.
+- `qgis_project/`: Saved QGIS project file (`.qgz`).
+- `maps/`: High-resolution map exports (300 DPI PNG & A4 Vector PDF).
+
+---
+
+## 👤 Author
+- **Name:** Houssem_Bourorga
+- **Field:** Geology / Geophysics / GIS Enthusiast
+- **LinkedIn:** https://www.linkedin.com/in/houssem-bourorga/
